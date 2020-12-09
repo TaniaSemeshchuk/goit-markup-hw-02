@@ -1,0 +1,116 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --title-accent-color: #ffffff;
+  --footer-bg-color: #2f303a;
+  --footer-prim-text-color: rgba(255, 255, 255, 0.6);
+  --button-color: #f5f4fa;
+}
+/* Общие стили для двух страниц */
+
+body {
+  color: var(--primary-text-color);
+}
+
+/*WebStudio*/
+.logo {
+  color: var(--accent-color);
+}
+
+.logo-text-primary {
+  color: var(--title-text-color);
+}
+
+.logo-text-secondary {
+  color: var(--title-accent-color);
+}
+
+/* Меню */
+.menu-link {
+  color: var(--title-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.menu-link.current {
+  color: var(--accent-color);
+}
+
+/* Контакты в nav*/
+.contact-link {
+  color: var(--primary-text-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+
+/* Футер */
+footer {
+  background-color: var(--footer-bg-color);
+}
+
+.adr {
+  color: var(--title-accent-color);
+}
+
+.footer-link {
+  color: var(--footer-prim-text-color);
+}
+
+/* Стили для index.html */
+
+/* Герой */
+.hero {
+  color: var(--title-accent-color);
+  background-color: var(--title-text-color);
+}
+
+/* Кнопка "Заказать услугу" */
+.btn {
+  color: var(--title-accent-color);
+  background-color: var(--accent-color);
+}
+
+/* Блок Особенности */
+.subtitle {
+  color: var(--title-text-color);
+}
+
+/* Блок Чем мы занимаемся */
+.title {
+  color: var(--title-text-color);
+}
+
+/* Блок Наша команда */
+.sub-title {
+  color: var(--title-text-color);
+}
+
+/* Стили для portfolio.html*/
+
+/* Кнопки */
+.btn-nav {
+  color: var(--title-text-color);
+  background-color: var(--button-color);
+}
+
+.btn-nav:hover,
+.btn-nav:focus {
+  color: var(--button-color);
+  background-color: var(--accent-color);
+}
+
+/* Блок Портфолио */
+.project-title {
+  color: var(--title-text-color);
+}
